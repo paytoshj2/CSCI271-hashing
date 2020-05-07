@@ -33,10 +33,10 @@ int main(int argc, char* argv[])
   Hash<string> test(size);
 
   ifstream infile;
-  infile.open("/home/win.thackerw/271/sort.dat", ios::in);
+  infile.open("DATAFILE.dat", ios::in);
   if(infile.fail())
   {
-    cout << "File failed to open!\n";
+    cout << "File failed to open, please check the filename in the code!\n";
     exit(1);
   }
 
